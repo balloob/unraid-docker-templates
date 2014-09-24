@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>home-assistant</Name>
+  <Description>
+    Home Assistant is a home automation platform written in Python 3.
+    [b][span style='color: #E80000;']Directions:[/span][/b][br]
+    [b]/config[/b] : in this path, Home Assistant will store it's configuration files.[br]
+    [b]8123[/b] : this is the port that the web interface will be made available.
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/balloob/home-assistant/</Registry>
+  <GitHub>https://github.com/balloob/docker-home-assistant</GitHub>
+  <Repository>balloob/home-assistant</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8123</HostPort>
+        <ContainerPort>8123</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/app_config/home-assistant/</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8123]/?api_password=docker</WebUI>
+  <Banner>https://raw.githubusercontent.com/balloob/unraid-docker-templates/balloob/home-assistant-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/balloob/unraid-docker-templates/balloob/home-assistant-icon.png</Icon>
+</Container>
