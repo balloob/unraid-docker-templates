@@ -31,6 +31,6 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8123]/?api_password=docker</WebUI>
-  <Banner>https://raw.githubusercontent.com/balloob/unraid-docker-templates/balloob/home-assistant-banner.png</Banner>
-  <Icon>https://raw.githubusercontent.com/balloob/unraid-docker-templates/balloob/home-assistant-icon.png</Icon>
+  <Banner>https://raw.githubusercontent.com/balloob/unraid-docker-templates/master/balloob/home-assistant-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/balloob/unraid-docker-templates/master/balloob/home-assistant-icon.png</Icon>
 </Container>
