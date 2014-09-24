@@ -2,7 +2,7 @@
 <Container>
   <Name>home-assistant</Name>
   <Description>
-    Home Assistant is a home automation platform written in Python 3.
+    Home Assistant is a home automation platform written in Python 3.[br][br]
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
     [b]/config[/b] : in this path, Home Assistant will store it's configuration files.[br]
     [b]8123[/b] : this is the port that the web interface will be made available.
