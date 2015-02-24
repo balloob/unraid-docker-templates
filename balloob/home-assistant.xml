@@ -3,10 +3,9 @@
   <Name>home-assistant</Name>
   <Description>
     Home Assistant is a home automation platform written in Python 3.[br][br]
-    Home Assistant will run in demo mode with default password 'password' if no configuration is found.[br][br]
+    Home Assistant will run its dashboard on port 8123. It will run in demo mode if no configuration is found.[br][br]
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
-    [b]/config[/b] : in this path, Home Assistant will store it's configuration files.[br]
-    [b]8123[/b] : this is the port that the web interface will be made available.
+    [b]/config[/b] : in this path, Home Assistant will store it's configuration files.
   </Description>
   <Registry>https://registry.hub.docker.com/u/balloob/home-assistant/</Registry>
   <GitHub>https://github.com/balloob/docker-home-assistant</GitHub>
@@ -15,14 +14,8 @@
   <Privileged>false</Privileged>
   <Environment/>
   <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>8123</HostPort>
-        <ContainerPort>8123</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
+    <Mode>host</Mode>
+    <Publish />
   </Networking>
   <Data>
     <Volume>
