@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <Beta>False</Beta>
+  <Category>HomeAutomation:</Category>
   <Name>home-assistant</Name>
   <Description>
     Home Assistant is a home automation platform written in Python 3.[br][br]
