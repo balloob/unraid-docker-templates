@@ -3,6 +3,10 @@
   <Beta>True</Beta>
   <Category>HomeAutomation:</Category>
   <Name>home-assistant-dev</Name>
+  <Overview>Home Assistant is a home automation platform written in Python 3. Track and control all devices at home and automate control.</Overview>
+  <license>MIT</license>
+  <Project>https://home-assistant.io</Project>
+  <Support>https://home-assistant.io/help/</Support>
   <Description>
     [b]This is the development channel of Home Assistant - use with caution.[/b][br]
     Home Assistant is a home automation platform written in Python 3.[br][br]
@@ -10,9 +14,9 @@
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
     [b]/config[/b] : in this path, Home Assistant will store it's configuration files.
   </Description>
-  <Registry>https://registry.hub.docker.com/u/balloob/home-assistant-dev/</Registry>
+  <Registry>https://registry.hub.docker.com/u/homeassistant/home-assistant-dev/</Registry>
   <GitHub>https://github.com/balloob/docker-home-assistant</GitHub>
-  <Repository>balloob/home-assistant-dev</Repository>
+  <Repository>homeassistant/home-assistant-dev</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
@@ -30,4 +34,5 @@
   <WebUI>http://[IP]:[PORT:8123]</WebUI>
   <Banner>https://raw.githubusercontent.com/balloob/unraid-docker-templates/master/balloob/home-assistant-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/balloob/unraid-docker-templates/master/balloob/home-assistant-icon.png</Icon>
+  <Config Name="Config Directory" Target="/config" Default="/mnt/cache/app_config/home-assistant" Mode="rw" Description="This path is where Home Assistant will store it's configuration files." Type="Path" Display="always" Required="true" Mask="false"/>
 </Container>
