@@ -25,7 +25,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/app_config/home-assistant/</HostDir>
+      <HostDir>/mnt/cache/appdata/home-assistant/</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
