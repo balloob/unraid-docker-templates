@@ -4,7 +4,7 @@
   <Category>HomeAutomation:</Category>
   <Name>home-assistant</Name>
   <Overview>Home Assistant is a home automation platform written in Python 3. Track and control all devices at home and automate control.</Overview>
-  <license>MIT</license>
+  <license>Apache-2</license>
   <Project>https://home-assistant.io</Project>
   <Support>https://home-assistant.io/help/</Support>
   <Description>
