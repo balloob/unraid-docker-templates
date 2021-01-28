@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://github.com/balloob.png</Icon>
+  <Profile>
+    Founder Home Assistant
+  </Profile>
+  <DonateLink>https://github.com/sponsors/balloob/</DonateLink>
+  <DonateText>If you like home automation &amp; privacy, please consider donating.</DonateText>
+</Maintainer>
