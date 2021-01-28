@@ -7,6 +7,8 @@
   <license>Apache-2</license>
   <Project>https://home-assistant.io</Project>
   <Support>https://home-assistant.io/help/</Support>
+  <DonateText>Sponsor me!</DonateText>
+  <DonateLink>https://github.com/sponsors/balloob</DonateLink>
   <Description>
     Home Assistant Core is the core of the Home Assistant home automation platform. It focuses on local control and privacy. Track and control all devices at home and automate control.[br][br]
     Home Assistant will run its dashboard on port 8123.[br][br]
