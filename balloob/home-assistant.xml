@@ -15,7 +15,7 @@
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
     [b]/config[/b] : in this path, Home Assistant will store it's configuration files.
   </Description>
-  <Registry>https://registry.hub.docker.com/u/homeassistant/home-assistant/</Registry>
+  <Registry>https://github.com/home-assistant/core/pkgs/container/home-assistant</Registry>
   <GitHub>https://github.com/home-assistant/docker-home-assistant</GitHub>
   <Repository>homeassistant/home-assistant</Repository>
   <BindTime>true</BindTime>
