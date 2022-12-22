@@ -2,15 +2,15 @@
 <Container version="2">
   <Beta>False</Beta>
   <Category>HomeAutomation:</Category>
-  <Name>Home Assistant Core</Name>
-  <Overview>Home Assistant Core is the core of the Home Assistant home automation platform. It focuses on local control and privacy. Track and control all devices at home and automate control.</Overview>
+  <Name>Home Assistant Container</Name>
+  <Overview>Home Assistant Container runs the core of the Home Assistant home automation platform. It focuses on local control and privacy. Track and control all devices at home and automate control.</Overview>
   <license>Apache-2</license>
-  <Project>https://home-assistant.io</Project>
-  <Support>https://home-assistant.io/help/</Support>
-  <DonateText>Sponsor me!</DonateText>
+  <Project>https://www.home-assistant.io</Project>
+  <Support>https://www.home-assistant.io/help/</Support>
+  <DonateText>Fund development of Home Assistant</DonateText>
   <DonateLink>https://github.com/sponsors/balloob</DonateLink>
   <Description>
-    Home Assistant Core is the core of the Home Assistant home automation platform. It focuses on local control and privacy. Track and control all devices at home and automate control.[br][br]
+    Home Assistant Container is the core of the Home Assistant home automation platform. It focuses on local control and privacy. Track and control all devices at home and automate control.[br][br]
     Home Assistant will run its dashboard on port 8123.[br][br]
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
     [b]/config[/b] : in this path, Home Assistant will store it's configuration files.
