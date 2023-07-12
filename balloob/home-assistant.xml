@@ -17,7 +17,7 @@
   </Description>
   <Registry>https://github.com/home-assistant/core/pkgs/container/home-assistant</Registry>
   <GitHub>https://github.com/home-assistant/docker-home-assistant</GitHub>
-  <Repository>homeassistant/home-assistant</Repository>
+  <Repository>ghcr.io/home-assistant/home-assistant:stable</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
